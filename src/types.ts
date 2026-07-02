@@ -1,0 +1,86 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export type Screen =
+  | 'performance'
+  | 'warehouse'
+  | 'governance'
+  | 'pos'
+  | 'director-dashboard'
+  | 'director-users'
+  | 'director-products'
+  | 'director-stock'
+  | 'director-sales'
+  | 'director-analytics'
+  | 'director-reports'
+  | 'director-settings'
+  | 'director-profile';
+
+export interface User {
+  name: string;
+  role: string;
+  avatar: string;
+  branch: string;
+  email?: string;
+  password?: string;
+}
+
+export interface Director {
+  id: string;
+  name: string;
+  email: string;
+  department: string;
+  lastActivity: string;
+  status: 'Actif' | 'Suspendu' | 'En révision';
+  initials: string;
+  bgColor: string;
+}
+
+export interface GovernanceLog {
+  id: string;
+  type: 'access' | 'error' | 'policy' | 'audit' | 'success';
+  title: string;
+  description: string;
+  timestamp: string;
+  code: string;
+}
+
+export interface Product {
+  id: string;
+  sku: string;
+  name: string;
+  category: 'Électronique' | 'Habillement' | 'Chaussures' | 'Voyage' | 'Accessoires' | 'Fabrication' | 'Automobile' | 'Logistique';
+  price: number;
+  stock: number;
+  image: string;
+  velocity?: string;
+  salesVolume?: number;
+  trend?: string;
+}
+
+export interface Transaction {
+  id: string;
+  asset: string;
+  category: string;
+  origin: string;
+  destination: string;
+  status: 'En transit' | 'Livré' | 'Retardé';
+  value: number;
+  date: string;
+}
+
+export interface StockArrival {
+  id: string;
+  sku: string;
+  supplier: string;
+  quantity: string;
+  location: string;
+  status: 'VÉRIFIÉ' | 'INSPECTION' | 'TRAITEMENT';
+}
+
+export interface CartItem {
+  product: Product;
+  quantity: number;
+}
