@@ -130,6 +130,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Moteur Pro-Fit X',
     category: 'Automobile',
     price: 210000, // 350.0 * 600
+    purchasePrice: 136500,
     stock: 842,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDLkSkUr_zxl_INx_ctYzTQ86IOoC4k372lBmItxn-cXL-yya-eJctkTqKTeFsVDfiuLg_9fGK_YFtPsJImepDEvkN44sLzAXWLemdnv_-iuPIMscd01UfaBiCt7_tAaVjAI-ye1JnyOnGnW0ftDC3VZ1JjE3xCNU0nUi5DMIfhH0Y7ZY93J-C-PD0QH6xJ3--iPp1QVqu_frlfy2pOKzjweDJqSueXhp6pYJIcR_zFil6k5_S5nSzz2W3qXte7UVxeyZPZyKSLnOM',
     velocity: '842 unités',
@@ -142,6 +143,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'SmartHub 2.0',
     category: 'Électronique',
     price: 149400, // 249.0 * 600
+    purchasePrice: 97110,
     stock: 615,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAxnaVhaG48Hy8g2dJ3qQXT76pO7-sYMR2OKv0D-62XjAE7Qo3X0iWRezsr7kAVH90VMPLlssY8qrFYry1CTZ7m6ul4HpKdtFUPJia63BEWmq-4q6y7tnXBkewaCr06cPbx3Y72FziKejqnzso7_rRU38NscGws_DyJa26IJ-MHtUCRR1NNo1YdLoeafHKj4xdjGzF8QEm5lUIFLAgXnSzIirsVqzPVDwfMlNK6wRVPEQXnyj63uC4lFxD6GDUEw6FpWNqiC9q3T9Y',
     velocity: '615 unités',
@@ -154,6 +156,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Alliage de Précision V4',
     category: 'Fabrication',
     price: 9000, // 15.0 * 600
+    purchasePrice: 5850,
     stock: 588,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDLkSkUr_zxl_INx_ctYzTQ86IOoC4k372lBmItxn-cXL-yya-eJctkTqKTeFsVDfiuLg_9fGK_YFtPsJImepDEvkN44sLzAXWLemdnv_-iuPIMscd01UfaBiCt7_tAaVjAI-ye1JnyOnGnW0ftDC3VZ1JjE3xCNU0nUi5DMIfhH0Y7ZY93J-C-PD0QH6xJ3--iPp1QVqu_frlfy2pOKzjweDJqSueXhp6pYJIcR_zFil6k5_S5nSzz2W3qXte7UVxeyZPZyKSLnOM',
     velocity: '588 unités',
@@ -166,6 +169,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Caisse Standard 50L',
     category: 'Logistique',
     price: 27000, // 45.0 * 600
+    purchasePrice: 17550,
     stock: 433,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDLkSkUr_zxl_INx_ctYzTQ86IOoC4k372lBmItxn-cXL-yya-eJctkTqKTeFsVDfiuLg_9fGK_YFtPsJImepDEvkN44sLzAXWLemdnv_-iuPIMscd01UfaBiCt7_tAaVjAI-ye1JnyOnGnW0ftDC3VZ1JjE3xCNU0nUi5DMIfhH0Y7ZY93J-C-PD0QH6xJ3--iPp1QVqu_frlfy2pOKzjweDJqSueXhp6pYJIcR_zFil6k5_S5nSzz2W3qXte7UVxeyZPZyKSLnOM',
     velocity: '433 unités',
@@ -178,6 +182,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Casque Pro Sound Sans-Fil',
     category: 'Électronique',
     price: 179400, // 299.0 * 600
+    purchasePrice: 116610,
     stock: 12,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAxnaVhaG48Hy8g2dJ3qQXT76pO7-sYMR2OKv0D-62XjAE7Qo3X0iWRezsr7kAVH90VMPLlssY8qrFYry1CTZ7m6ul4HpKdtFUPJia63BEWmq-4q6y7tnXBkewaCr06cPbx3Y72FziKejqnzso7_rRU38NscGws_DyJa26IJ-MHtUCRR1NNo1YdLoeafHKj4xdjGzF8QEm5lUIFLAgXnSzIirsVqzPVDwfMlNK6wRVPEQXnyj63uC4lFxD6GDUEw6FpWNqiC9q3T9Y',
     velocity: '240 unités',
@@ -189,6 +194,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Montre Connectée Horizon',
     category: 'Électronique',
     price: 108000, // 180.0 * 600
+    purchasePrice: 70200,
     stock: 8,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCOdWyG460AsBujM7MD4yGwxkn6jjhq4C_QsznIruGQCfXR1DBZ4gpH60e8fvedSdheqhCB6iDjNlhu6hN1UF5gDiQ7p26ogOCaZjuaU8gC0N7-odyeOMRNUKUYfgaa9rZ3GU0uQb3KPk876XzyJb_9AOtmxLc41jy7VU-qNdwFhiCSvJsSh6pOvfIOJ9EopGzbR_dpcJc_6uiamnGX65WHdiMLXd5h-bD7Z8UU64yX06XQESp6P2uzf-rWEGhRQItYck4MyM0dHl4',
     velocity: '180 unités',
@@ -200,6 +206,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Lunettes Rétro Solaires',
     category: 'Accessoires',
     price: 45000, // 75.0 * 600
+    purchasePrice: 29250,
     stock: 4,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA57yRI7LxcdsIcF9qWqG-x6JAJEaRQ-qfwis0ipzel77Ex9OJ6Ozboe7lK0EPCTfw3P_rsH_-43Sf9VFlPShN6H_7p-7c61Ns3Gsi20Mr2R6NuMCCnWgorTDEu7ReEqsL7q-CSyLFylAlRGtQQRhJBqeczPo-2XWCrclLEfwDzXrBw7yT9YT_aT4mGMal54UGkY90TtlU7j6ojGDYCGUrKJFFlZ6ETX0xmzvwcWBXwsbQMDxHlECabrirmLCX2Gs6UAxi8uTSCW3A',
     velocity: '95 unités',
@@ -211,6 +218,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Chaussures Course Velocity',
     category: 'Chaussures',
     price: 72000, // 120.0 * 600
+    purchasePrice: 46800,
     stock: 45,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxRHLj0vKiGy5X3L_2U4KdwGq8bmD5RimOz4zAKaTqfCmlDVyEC3guKJ5zwzDTXtUOL3Td6lRhjF65VGbf8FzAieYYGBD5e0n_HhrYbZgTpzzabLFlmEozAs2DN3UTb3a1-QxXuv46VtbhZPYDpwIUaVYdXAq8u79G9fTvVyWTeUZ2r8TlFCG2IbSSkMXWKf30UArmni6LFQ_uOfVzPG-HQ20DZDjIh6heMeDmTwbZvlWiMSAr7cABSvgvaGUxUksTasXRJBpfmRM',
     velocity: '312 unités',
@@ -222,6 +230,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Objectif Photo X-Lens 50mm',
     category: 'Accessoires',
     price: 324000, // 540.0 * 600
+    purchasePrice: 210600,
     stock: 22,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCA3VUm27N5_MUzJbNh17ix0INePkor7gO2GDjf4FX_g1n5KqWZqQDyW1ht9oTFI8dqQZo74ZXohKZdCagwcf5qZ6MG3eovPJ7iHp9LC8m4Z4H5qoZ5t-0vsClLUBtsBX8SYddgv5j5OOs8DvATA4sv1A0jntIniNnVo_NcI3yIzzjIVUw3lWts70BdJwroJtQsm_6Mykp8ulP9VElIKpxm4eIv-TzLWOu7fXAPSpI0zogLrRAoNLzAUumTr7XhNF0TpoWSTBQljHg',
     velocity: '88 unités',
@@ -233,6 +242,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Sac à Dos de Voyage Nomad',
     category: 'Voyage',
     price: 51000, // 85.0 * 600
+    purchasePrice: 33150,
     stock: 50,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDuPCcBxiVyR0XbB07kZbZY9XrPW0rNpcgN1AZ20Pz6HkAhkxnGpRsUbaTzbpmv74vOfVAYfK3x0rfsDZechdCwctQH1HffFoW0NibQ5JccaCXF7XUB4KHz_QsIkkMlfC0s--yFN2B5WlibHgBI_AiMivbTvJ4LlbmM1T5KGbXkPsJclN2jT0h7dWvznfkO6dTVPr_WbuW-XB1RryDx-9OxmNNf9hBMYqyiJN3pwdHyZvYJp7RUEazy6cYvX8cEZ6UqTgRWPd_dng8',
     velocity: '112 unités',
@@ -241,6 +251,194 @@ export const INITIAL_PRODUCTS: Product[] = [
 ];
 
 export const INITIAL_TRANSACTIONS: Transaction[] = [
+  // Ventes du jour (2026-07-03)
+  {
+    id: '#TRX-1001',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 391800,
+    date: '2026-07-03',
+    paymentMethod: 'espèces',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-02', name: 'SmartHub 2.0', quantity: 2, price: 149400, purchasePrice: 97110, category: 'Électronique' },
+      { productId: 'PROD-10', name: 'Sac à Dos de Voyage Nomad', quantity: 1, price: 51000, purchasePrice: 33150, category: 'Voyage' },
+      { productId: 'PROD-07', name: 'Lunettes Rétro Solaires', quantity: 1, price: 45000, purchasePrice: 29250, category: 'Accessoires' }
+    ],
+    difference: 0
+  },
+  {
+    id: '#TRX-1002',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 288000,
+    date: '2026-07-03',
+    paymentMethod: 'Carte bancaire',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-08', name: 'Chaussures Course Velocity', quantity: 4, price: 72000, purchasePrice: 46800, category: 'Chaussures' }
+    ],
+    difference: 0
+  },
+  {
+    id: '#TRX-1003',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 179400,
+    date: '2026-07-03',
+    paymentMethod: 'Mobile Money',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-05', name: 'Casque Pro Sound Sans-Fil', quantity: 1, price: 179400, purchasePrice: 116610, category: 'Électronique' }
+    ],
+    difference: -500 // variance caisse
+  },
+  // Ventes d'hier (2026-07-02)
+  {
+    id: '#TRX-1004',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 420000,
+    date: '2026-07-02',
+    paymentMethod: 'espèces',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-01', name: 'Moteur Pro-Fit X', quantity: 2, price: 210000, purchasePrice: 136500, category: 'Automobile' }
+    ],
+    difference: 1500
+  },
+  {
+    id: '#TRX-1005',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 324000,
+    date: '2026-07-02',
+    paymentMethod: 'Carte bancaire',
+    cashierName: 'Robert King',
+    items: [
+      { productId: 'PROD-09', name: 'Objectif Photo X-Lens 50mm', quantity: 1, price: 324000, purchasePrice: 210600, category: 'Accessoires' }
+    ],
+    difference: 0
+  },
+  // Ventes de la semaine (2026-06-28 à 2026-07-01)
+  {
+    id: '#TRX-1006',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 648000,
+    date: '2026-06-30',
+    paymentMethod: 'Mobile Money',
+    cashierName: 'Robert King',
+    items: [
+      { productId: 'PROD-09', name: 'Objectif Photo X-Lens 50mm', quantity: 2, price: 324000, purchasePrice: 210600, category: 'Accessoires' }
+    ],
+    difference: 0
+  },
+  {
+    id: '#TRX-1007',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 510000,
+    date: '2026-06-29',
+    paymentMethod: 'espèces',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-10', name: 'Sac à Dos de Voyage Nomad', quantity: 10, price: 51000, purchasePrice: 33150, category: 'Voyage' }
+    ],
+    difference: 0
+  },
+  // Ventes du mois dernier (Juin 2026, hors cette semaine)
+  {
+    id: '#TRX-1008',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 1200000,
+    date: '2026-06-15',
+    paymentMethod: 'Carte bancaire',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-01', name: 'Moteur Pro-Fit X', quantity: 5, price: 210000, purchasePrice: 136500, category: 'Automobile' },
+      { productId: 'PROD-03', name: 'Alliage de Précision V4', quantity: 16, price: 9000, purchasePrice: 5850, category: 'Fabrication' }
+    ],
+    difference: -2000
+  },
+  {
+    id: '#TRX-1009',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 896400,
+    date: '2026-06-10',
+    paymentMethod: 'espèces',
+    cashierName: 'Alex Rivera',
+    items: [
+      { productId: 'PROD-02', name: 'SmartHub 2.0', quantity: 6, price: 149400, purchasePrice: 97110, category: 'Électronique' }
+    ],
+    difference: 0
+  },
+  // Ventes de l'année (plus anciennes en 2026)
+  {
+    id: '#TRX-1010',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 3000000,
+    date: '2026-04-12',
+    paymentMethod: 'espèces',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-01', name: 'Moteur Pro-Fit X', quantity: 12, price: 210000, purchasePrice: 136500, category: 'Automobile' },
+      { productId: 'PROD-06', name: 'Montre Connectée Horizon', quantity: 4, price: 108000, purchasePrice: 70200, category: 'Électronique' }
+    ],
+    difference: 0
+  },
+  // Ventes de l'année précédente (2025)
+  {
+    id: '#TRX-1011',
+    asset: 'Vente Directe PDV',
+    category: 'VENTES POINT DE VENTE',
+    origin: 'Succursale Principale',
+    destination: 'Client',
+    status: 'Livré',
+    value: 4500000,
+    date: '2025-10-24',
+    paymentMethod: 'Carte bancaire',
+    cashierName: 'Alex Admin',
+    items: [
+      { productId: 'PROD-01', name: 'Moteur Pro-Fit X', quantity: 20, price: 210000, purchasePrice: 136500, category: 'Automobile' },
+      { productId: 'PROD-02', name: 'SmartHub 2.0', quantity: 2, price: 149400, purchasePrice: 97110, category: 'Électronique' }
+    ],
+    difference: 0
+  },
+  // Anciennes transactions logistiques conservées
   {
     id: '#TRX-99021',
     asset: 'Acier de Qualité Industrielle',
@@ -248,7 +446,7 @@ export const INITIAL_TRANSACTIONS: Transaction[] = [
     origin: 'Entrepôt Chicago 1',
     destination: 'Usine de Fabrication A',
     status: 'En transit',
-    value: 25290000, // 42150.0 * 600
+    value: 25290000,
     date: '2026-07-01',
   },
   {
@@ -258,7 +456,7 @@ export const INITIAL_TRANSACTIONS: Transaction[] = [
     origin: 'Centre de Guangzhou',
     destination: 'Distribution de Détail B',
     status: 'Livré',
-    value: 7440000, // 12400.0 * 600
+    value: 7440000,
     date: '2026-07-02',
   },
   {
@@ -268,7 +466,7 @@ export const INITIAL_TRANSACTIONS: Transaction[] = [
     origin: 'Centre Logistique de Berlin',
     destination: 'Assemblage de Munich',
     status: 'Retardé',
-    value: 93600000, // 156000.0 * 600
+    value: 93600000,
     date: '2026-06-30',
   },
 ];

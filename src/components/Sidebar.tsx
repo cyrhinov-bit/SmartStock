@@ -165,6 +165,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </button>
 
             <button
+              onClick={() => setScreen('director-finance')}
+              className={`w-full flex items-center gap-3 py-2.5 px-4 rounded-xl text-left font-sans text-xs font-semibold transition-all duration-150 ${
+                currentScreen === 'director-finance'
+                  ? 'text-[#3525cd] bg-[#f0f3ff] font-bold relative after:content-[""] after:absolute after:left-0 after:top-1/4 after:h-1/2 after:w-1 after:bg-[#3525cd] after:rounded-full'
+                  : 'text-[#464555] hover:bg-[#f0f3ff]/60 hover:text-[#3525cd]'
+              }`}
+            >
+              <span className="material-symbols-outlined text-lg text-amber-500">payments</span>
+              <span>💰 Analyse Financière</span>
+            </button>
+
+            <button
               onClick={() => setScreen('director-users')}
               className={`w-full flex items-center gap-3 py-2.5 px-4 rounded-xl text-left font-sans text-xs font-semibold transition-all duration-150 ${
                 currentScreen === 'director-users'

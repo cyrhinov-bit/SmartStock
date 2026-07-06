@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import { Product, Transaction, StockArrival, User, Director, GovernanceLog, Screen } from '../types';
+import { DirectorFinance } from './DirectorFinance';
 
 interface DirectorDashboardProps {
   screen: Screen;
@@ -574,6 +575,16 @@ export const DirectorDashboard: React.FC<DirectorDashboardProps> = ({
             </div>
           </div>
         </div>
+      )}
+
+      {/* ------------------ ANALYSE FINANCIÈRE (SCREEN: director-finance) ------------------ */}
+      {screen === 'director-finance' && (
+        <DirectorFinance
+          products={products}
+          transactions={transactions}
+          accounts={accounts}
+          triggerAlert={triggerAlert}
+        />
       )}
 
       {/* ------------------ UTILISATEURS (SCREEN: director-users) ------------------ */}

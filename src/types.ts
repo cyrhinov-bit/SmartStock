@@ -9,6 +9,7 @@ export type Screen =
   | 'governance'
   | 'pos'
   | 'director-dashboard'
+  | 'director-finance'
   | 'director-users'
   | 'director-products'
   | 'director-stock'
@@ -53,8 +54,11 @@ export interface Product {
   name: string;
   category: 'Électronique' | 'Habillement' | 'Chaussures' | 'Voyage' | 'Accessoires' | 'Fabrication' | 'Automobile' | 'Logistique';
   price: number;
+  purchasePrice?: number;
   stock: number;
   image: string;
+  image_path?: string | null;
+  updated_at?: string;
   velocity?: string;
   salesVolume?: number;
   trend?: string;
@@ -69,6 +73,10 @@ export interface Transaction {
   status: 'En transit' | 'Livré' | 'Retardé';
   value: number;
   date: string;
+  paymentMethod?: 'espèces' | 'Mobile Money' | 'Carte bancaire';
+  cashierName?: string;
+  items?: { productId: string; name: string; quantity: number; price: number; purchasePrice: number; category: string }[];
+  difference?: number; // cashier difference (écart de caisse)
 }
 
 export interface StockArrival {

@@ -409,6 +409,13 @@ export const POS: React.FC<POSProps> = ({
     );
 
     if (found) {
+      if (found.isActive === false) {
+        setScanToast({ message: `L'article "${found.name}" est désactivé et ne peut pas être vendu.`, type: 'error' });
+        setTimeout(() => setScanToast(null), 3500);
+        setScanInput('');
+        return;
+      }
+
       if (found.stock <= 0) {
         setScanToast({ message: `Rupture de stock pour "${found.name}" (SKU: ${found.sku})`, type: 'error' });
         setTimeout(() => setScanToast(null), 3500);
@@ -461,6 +468,10 @@ export const POS: React.FC<POSProps> = ({
   // Filtered Products Catalog
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {
+      // Must be active to be displayed in the POS catalog
+      const isProductActive = p.isActive !== false;
+      if (!isProductActive) return false;
+
       const matchesCategory = selectedCategory === 'Tous' || p.category === selectedCategory;
       const matchesSearch =
         p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
